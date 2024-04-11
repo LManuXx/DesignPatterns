@@ -28,3 +28,9 @@ El patrón Singleton es un patrón de creación que garantiza que una clase teng
 
 ### Ejemplo de Implementación:
 Imagina que estás desarrollando un sistema de registro de eventos donde necesitas un registro centralizado para almacenar todos los eventos del sistema. En este caso, puedes utilizar el patrón Singleton para garantizar que solo haya una instancia del registro de eventos en toda la aplicación.
+
+## Patrón de Diseño: Adapter
+El patrón Adapter es un patrón estructural que permite que interfaces incompatibles trabajen juntas. Convierte la interfaz de una clase en otra interfaz que un cliente espera encontrar. El Adapter permite que clases con interfaces incompatibles puedan colaborar entre sí.
+
+### Ejemplo de Implementación:
+Imagina que estás integrando una biblioteca de terceros en tu aplicación que tiene una interfaz incompatible con el resto de tu código. En este caso, puedes utilizar el patrón Adapter para crear un adaptador que convierta la interfaz de la biblioteca de terceros en una interfaz compatible con tu código existente.
