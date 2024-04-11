@@ -34,3 +34,9 @@ El patrón Adapter es un patrón estructural que permite que interfaces incompat
 
 ### Ejemplo de Implementación:
 Imagina que estás integrando una biblioteca de terceros en tu aplicación que tiene una interfaz incompatible con el resto de tu código. En este caso, puedes utilizar el patrón Adapter para crear un adaptador que convierta la interfaz de la biblioteca de terceros en una interfaz compatible con tu código existente.
+
+## Patrón de Diseño: Bridge
+El patrón Bridge es un patrón estructural que separa la abstracción de su implementación, de modo que ambas puedan variar independientemente. Permite que las clases abstractas y sus implementaciones puedan cambiarse y extenderse de forma independiente.
+
+### Ejemplo de Implementación:
+Imagina que estás desarrollando un sistema de dibujo donde tienes diferentes formas geométricas (como círculos y cuadrados) y diferentes tipos de implementaciones de dibujo (como dibujar en una ventana de aplicaciones gráficas o en una ventana de terminal). En este caso, puedes utilizar el patrón Bridge para separar las formas geométricas de las implementaciones de dibujo, permitiendo que cambien independientemente.
