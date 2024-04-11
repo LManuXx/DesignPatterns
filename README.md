@@ -22,3 +22,9 @@ El patrón Prototype es un patrón de creación que se utiliza para crear nuevos
 
 ## Ejemplo de Implementación:
 Imagina que estás desarrollando un sistema de gestión de documentos donde los usuarios pueden crear diferentes tipos de documentos, como cartas, contratos o informes. En este caso, puedes utilizar el patrón Prototype para clonar un documento existente y luego personalizarlo según las necesidades del usuario.
+
+## Patrón de Diseño: Singleton
+El patrón Singleton es un patrón de creación que garantiza que una clase tenga una única instancia y proporciona un punto de acceso global a esa instancia. Es útil cuando solo se necesita una instancia de una clase en toda la aplicación.
+
+### Ejemplo de Implementación:
+Imagina que estás desarrollando un sistema de registro de eventos donde necesitas un registro centralizado para almacenar todos los eventos del sistema. En este caso, puedes utilizar el patrón Singleton para garantizar que solo haya una instancia del registro de eventos en toda la aplicación.
